@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        width: 50%;
+        margin: 0 auto;
+        border: 1px solid #ddd;
+        position: relative;
+        height: 600px;
+        overflow: hidden;
+    }
+    .slide{
+        position: absolute;
+        width: 100%;
+        transition: .5s ease-in-out;
+        height: 100%;
+    }
+</style>
+<body>
+
+   <div class="main">
+    <div  class="slide"><h1>hello</h1></div>
+    <div  class="slide"><h1>hello</h1></div>
+    <div  class="slide"><h1>hello</h1></div>
+    <div  class="slide"><h1>hello</h1></div>
+    <div  class="slide"><h1>hello</h1></div>
+      
+ 
+   </div>
+   <button onclick="goPre()">pre</button>
+   <button id="next" onclick="goNext()">next</button>  
+   <script src="app.js"></script>
+</body>
+</html>
